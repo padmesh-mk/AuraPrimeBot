@@ -2,12 +2,13 @@
 
 AuraPrime is a feature-rich and modular Discord bot written in Python. It includes fun minigames, AFK tracking, donation and cookie logging, vote rewards, moderation tools, tag systems, and more — all designed to enhance your server experience.
 
-> 👨‍💻 Developed by [@PadmeshMK](https://github.com/PadmeshMK)
+> 👨‍💻 Developed by [@PadmeshMK](https://github.com/padmesh-mk)
 
 ---
 
 ## 🔧 Features
 
+- 👋 Welcomer: Welcomes newly joined members
 - 🎮 Minigames: Rock Paper Scissors, Coin Flip, Guess Number, Roast, and more
 - 💤 AFK System with reason + ping logs
 - 🛡️ Moderation: Ban, Kick, Timeout, Tempban, Unban, Purge, and more
@@ -95,10 +96,9 @@ AuraPrime is a feature-rich and modular Discord bot written in Python. It includ
 
 ## 🚀 Invite & Support
 
-- 🔗 [Invite AuraPrime](https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot+applications.commands&permissions=8)
-- 💬 [Join Support Server](https://discord.gg/YOUR_SUPPORT_SERVER)
-
-> Replace the links above with your actual bot/client ID and server invite
+- 🔗 [Invite AuraPrime](https://discord.com/oauth2/authorize?client_id=1316827072655523911)
+- 💬 [Join Support Server](https://discord.gg/EUfPFvySjw)
+- 📥 [Top.gg Profile](https://top.gg/bot/1316827072655523911?s=054eb029926d6)
 
 ---
 
@@ -117,10 +117,12 @@ cd AuraPrime
 DISCORD_TOKEN=your-bot-token
 TOPGG_AUTH=your-topgg-webhook-auth
 FORWARD_URL=https://your-bot-domain.com/internal-vote
-WEBHOOK_URL=https://discord.com/api/webhooks/your-log-channel
+DISCORD_LOG_WEBHOOK=https://discord.com/api/webhooks/your-log-channel
+BOT_RESTART_CHANNEL_ID=your-channel-id
+MAIN_GUILD_ID=support-server-id
+INTERNAL_SECRET=topgg-secret
+OWNER_ID=botowner-id
 ```
-
-> Never commit your `.env` file!
 
 ---
 
@@ -194,7 +196,7 @@ This project is licensed under the **MIT License** — feel free to fork, use, o
 
 ## 🙌 Credits
 
-Made with ❤️ by [Padmesh](https://github.com/PadmeshMK)
+Made with ❤️ by [Padmesh](https://github.com/padmesh-mk)
 For bugs or questions, join the support server!
 
 ```
